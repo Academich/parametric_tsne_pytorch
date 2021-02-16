@@ -13,7 +13,9 @@ def train_parametric_tsne_model(points_ds, input_dimens, config):
     opt = torch.optim.Adam(ffnn.parameters(), **config.optimization_conf)
 
     report_config = json.dumps(
-        {"optimization": config.optimization_conf,
+        {"device": config.dev,
+         "seed": config.seed,
+         "optimization": config.optimization_conf,
          "training": config.training_params})
 
     start = datetime.datetime.now()
