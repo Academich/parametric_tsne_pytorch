@@ -1,4 +1,4 @@
-# parametric_tsne_pytorch
+# Parametric t-SNE in Pytorch
 Implementation or regular and multiscale parametric t-SNE in pytorch
 
 The code implements parametric t-SNE in Pytorch.
