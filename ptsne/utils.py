@@ -8,7 +8,7 @@ def get_random_string(length: int) -> str:
     """Generates random string of ascii chars"""
     letters = string.ascii_lowercase
     result_str = ''.join(random.choice(letters) for _ in range(length))
-    return "tsne" + result_str
+    return "tsne_" + result_str
 
 
 def squared_euc_dists(x: tensor) -> tensor:
