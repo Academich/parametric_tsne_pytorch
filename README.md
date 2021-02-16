@@ -5,8 +5,8 @@ The code implements parametric t-SNE in Pytorch.
 
 ![image](demo_mnist.png)
 
-Rename `example.config.yaml` to `config.yaml` before running the code
-The demosntration is in the `Demonstration.ipynb` notebook
+Rename `example.config.yaml` to `config.yaml` before running the code.  
+The demosntration is in the `Demonstration.ipynb` notebook.
 
 References:  
 
