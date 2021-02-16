@@ -1,0 +1,1 @@
+from ptsne.trainer import train_parametric_tsne_model
