@@ -3,6 +3,10 @@ Implementation or regular and multiscale parametric t-SNE in pytorch
 
 The code implements parametric t-SNE in Pytorch.
 
+![image](demo_mnist.png)
+
+The demosntration is in the `Demonstration.ipynb` notebook
+
 References:  
 
   * L.J.P. van der Maaten and G.E. Hinton. Visualizing High-Dimensional Data Using t-SNE. Journal of Machine Learning Research 9(Nov):2579-2605, 2008.
