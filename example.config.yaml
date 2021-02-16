@@ -1,19 +1,19 @@
-device: "cuda"
+device: "cpu"
 seed: 170
 save_dir_path: "saved_models"
-epochs_to_save_after: null
+epochs_to_save_after: 10
 
 optimization:
   lr: 0.002
 
 training:
   perplexity: null
-  n_epochs: 15
-  early_exaggeration: 10
+  n_epochs: 10
+  early_exaggeration: 4
   early_exaggeration_constant: 5
   batch_size: 500
-  bin_search_max_iter: 1000
-  bin_search_tol: 0.00001
+  bin_search_max_iter: 100
+  bin_search_tol: 0.0001
   dist_func_name: "euc"
   min_allowed_sig_sq: 0
   max_allowed_sig_sq: 10000
