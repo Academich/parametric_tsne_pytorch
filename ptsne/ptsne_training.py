@@ -241,6 +241,8 @@ def fit_ptsne_model(model: torch.nn.Module,
                     n_different_entropies += 1
 
                     p_joint_for_h = make_joint(p_cond_for_h)
+
+                    # TODO This fails if the last batch doesn't match the shape of mscl_p_joint_in_batch
                     mscl_p_joint_in_batch += p_joint_for_h
 
                 p_joint_in_batch = mscl_p_joint_in_batch / n_different_entropies
