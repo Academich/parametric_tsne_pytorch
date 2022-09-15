@@ -7,6 +7,8 @@ The code implements regular and multiscale parametric t-SNE in Pytorch.
 Rename `example.config.yaml` to `config.yaml` before running the code.  
 The demosntration is in the `Demonstration.ipynb` notebook.
 
+Also check out [OpenTSNE](https://opentsne.readthedocs.io/en/latest/).
+
 References:  
 
   * L.J.P. van der Maaten and G.E. Hinton. Visualizing High-Dimensional Data Using t-SNE. Journal of Machine Learning Research 9(Nov):2579-2605, 2008.
